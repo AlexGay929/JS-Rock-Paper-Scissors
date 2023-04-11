@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <h1>Rock, Paper, Scissors</h1>
+    <div class="scoreboard">
+        <div class="player-score">Player: 0</div>
+        <div class="computer-score">Computer: 0</div>
+    </div>
+    <div class="choice-display">
+        <div class="display">
+            <h2>Computer Choice: <span id="computer-choice"></span></h2>
+        </div>
+        <div class="display">
+            <h2>User Choice: <span id="user-choice"></span></h2>
+        </div>
+    </div>
+    <!-- <h2>Result: <span id="result"></span></h2> -->
+
+    <!-- <button id="rock">rock</button>
+    <button id="paper">paper</button>
+    <button id="scissors">scissors</button> -->
+    <div class="choices">
+        <button class="choice" id="rock">
+          <i class="fas fa-hand-rock"></i>
+        </button>
+        <button class="choice" id="paper">
+          <i class="fas fa-hand-paper"></i>
+        </button>
+        <button class="choice" id="scissors">
+          <i class="fas fa-hand-scissors"></i>
+        </button>
+    </div>
+      <div class="result" id="result">
+        <p>Choose your tool!</p>
+      </div>
+      <div id="computer-choice"></div>
+      <br>
+      <div class="race-five">
+        <h2>Race to 5!</h2>
+      </div>
+      <!-- <div class="timer" id="timer">
+        <p>Time left: <span id="countdown">10</span>s</p>
+      </div> -->
+    <!-- <button class="play-again" id="play-again">Play Again</button> -->
+
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
